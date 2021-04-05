@@ -19,7 +19,7 @@ export function TaskList() {
       return;
     } else {
       let newTask: Task = {
-        id: (Math.random()) * 100000,
+        id: Math.random(),
         title: newTaskTitle,
         isComplete: false
       }
